@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кино-афиша</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+    <header class="header">
+        <div class="container d-flex">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Фильмы</a></li>
+                    <li><a href="#">Билеты</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>   
+            </nav>
+            <div class="profile">
+                <a href="#">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main class="container d-flex">
+        <aside class="sidebar">
+            <form>
+    
+                    
+            </fieldset>
+            <fieldset>
+                <legend>Способ оплаты</legend>
+                <div class="form-group">
+                    <input type="radio" name="pay" id="credit_card">
+                    <label for="group1">Банковская карта</label>
+                </div>
+                <div class="form-group">
+                    <input type="radio" name="pay" id="SBP">
+                    <label for="group2">СБП</label>
+                </div>
+                <div class="form-group">
+                    <input type="radio" name="pay" id="Pushkin_card">
+                    <label for="group2">Пушкинская карта</label>
+                </div>
+
+            </fieldset>
+
+                <fieldset>
+                    <legend>Выберите дату</legend>
+                    <div class="calendar">
+                        <div class="calendar__weekday">Mon</div>
+                        <div class="calendar__weekday">Tue</div>
+                        <div class="calendar__weekday">Wed</div>
+                        <div class="calendar__weekday">Thu</div>
+                        <div class="calendar__weekday">Fri</div>
+                        <div class="calendar__weekday">Sat</div>
+                        <div class="calendar__weekday">Sun</div>
+                        <div class="calendar__day calendar__day--disabled">30</div>
+                        <div class="calendar__day calendar__day--disabled">31</div>
+                        <div class="calendar__day">1</div>
+                        <div class="calendar__day">2</div>
+                        <div class="calendar__day">3</div>
+                        <div class="calendar__day">4</div>
+                        <div class="calendar__day">5</div>
+                        <div class="calendar__day">6</div>
+                        <div class="calendar__day">7</div>
+                        <div class="calendar__day">8</div>
+                        <div class="calendar__day">9</div>
+                        <div class="calendar__day">10</div>
+                        <div class="calendar__day">11</div>
+                        <div class="calendar__day">12</div>
+                        <div class="calendar__day">13</div>
+                        <div class="calendar__day">14</div>
+                        <div class="calendar__day">15</div>
+                        <div class="calendar__day">16</div>
+                        <div class="calendar__day">17</div>
+                        <div class="calendar__day">18</div>
+                        <div class="calendar__day">19</div>
+                        <div class="calendar__day">20</div>
+                        <div class="calendar__day">21</div>
+                        <div class="calendar__day">22</div>
+                        <div class="calendar__day">23</div>
+                        <div class="calendar__day">24</div>
+                        <div class="calendar__day">25</div>
+                        <div class="calendar__day">26</div>
+                        <div class="calendar__day">27</div>
+                        <div class="calendar__day">28</div>
+                        <div class="calendar__day">29</div>
+                        <div class="calendar__day">30</div>
+                        <div class="calendar__day calendar__day--current">...</div>
+                        <div class="calendar__day calendar__day--disabled">1</div>
+                        <div class="calendar__day calendar__day--disabled">2</div>
+                    </div>
+                <button class="btn">Применить</button>
+            </form>
+        </aside>
+        <div class="page-content">
+            <h1 class="products-header">Фильмы</h1>
+            <div class="products">
+                <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/pr1.webp" alt="pr1">
+                        </div>
+                        <div class="product-details" >
+                            <header>По щучьему велению</header>
+                            <p class="product-info">Сказка от создателей «Конька-горбунка» со звёздными актёрами. 7.3 Оценка от кинопоиска. Кино * Приключения * Фэнтези * Детям * 6+</p>
+                            <div class="action">
+                                <a href="Sec_page/index.html">
+                                    <button class="buy-btn" >
+                                    <span class="price">500 &#8381;</span><span class="buy">Купить билет</span>
+                                </button></a>
+                                
+
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/pr2.webp" alt="pr2">
+                    </div>
+                    <div class="product-details">
+                        <header>Папаша в бегах</header>
+                        <p class="product-info">Невероятное путешествие с малым в Когалым. Лирическая комедия с Ириной Горбачёвой и Михаилом Тройником Кино * Комедия * Мелодрама * Приключения * 12+</p>
+                        <div class="action">
+                            <button class="buy-btn">
+                                <span class="price">550 &#8381;</span><span class="buy">Купить билет</span>
+                            </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="images/pr3.webp" alt="product3">
+                </div>
+                <div class="product-details">
+                    <header>Моя ужасная сестра-2</header>
+                    <p class="product-info">Сиквел комедии с Яглычем и Глюкозой: в семье появляется новая малышка. Кино * Комедия * 6+</p>
+                    <div class="action">
+                        <button class="buy-btn">
+                            <span class="price">600 &#8381;</span><span class="buy">Купить билет</span>
+                        </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/pr4.webp" alt="product4">
+            </div>
+            <div class="product-details">
+                <header>Легенда о самбо</header>
+                <p class="product-info">История двух великих создателей самбо и их ученика Анатолия Харлампиева. Кино * Спортивный * Приключения * Биография * Драма * 12+</p>
+                <div class="action">
+                    <button class="buy-btn">
+                        <span class="price">450 &#8381;</span><span class="buy">Купить Билет</span>
+                    </button>
+
+            </div>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <img src="images/pr5.webp" alt="product5">
+        </div>
+        <div class="product-details">
+            <header>Мини-мишки: Новые приключения</header>
+            <p class="product-info">С друзьями из крошечного игрушечного городка происходят разные истории. Кино * Мультфильм * Детям * Приключения * 0+</p>
+            <div class="action">
+                <button class="buy-btn">
+                    <span class="price">500 &#8381;</span><span class="buy">Купить билет</span>
+                </button>
+
+        </div>
+    </div>
+</div>
+<div class="product-card">
+    <div class="product-image">
+        <img src="images/pr6.webp" alt="product6">
+    </div>
+    <div class="product-details">
+        <header>Крылатая история</header>
+        <p class="product-info">Однокрылый мотылёк с друзьями летит навстречу приключениям. Кино * Мультфильм * Семейное кино * Детям * Приключения * 6+</p>
+        <div class="action">
+            <button class="buy-btn">
+                <span class="price">450 &#8381;</span><span class="buy">Купить билет</span>
+            </button>
+
+    </div>
+</div>
+</div>
+
+            
+                
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+        <div class="row">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Наши сервисы</a></li>
+        <li><a href="#">Политика конфиденциальности</a></li>
+        <li><a href="#">Спонсоры</a></li>
+        <li><a href="#">Соцсети</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+            &copy; 2023 ООО «Кино-афиша в РФ»
+        </div>
+        </div>
+        </footer>
+    
+</body>
+</html>
